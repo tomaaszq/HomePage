@@ -3,15 +3,17 @@ html,body {
 	width: 100%;
 	margin:0 !important;
 	padding: 0 !important;
-	background-color: #00A896;
+	background-color: #34495E;
+  color:#fff !important;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
 }
 .kontener {
 	height: 100%;
 	width: 100% !important;
 	margin:0 !important;
 	padding: 0 !important;
-	font-family: 'Krona One', sans-serif !important;
-	letter-spacing: -2px !important;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+	letter-spacing: -1px !important;
 }
 
 .Element {
@@ -23,23 +25,23 @@ html,body {
 	padding: 0 !important;
 }
 .first {
-	background-color: #05668D;
+	background-color: #EB6B52;
 }
 .second {
-	background-color: #028090;
+	background-color: #607880;
 }
 .third {
-	background-color: #00A896;
+	background-color: #2ECC71;
 }
 .fourth {
-	background-color: #47ff6f;
+	background-color: #34495E;
 }
 .nav {
-	background-color: #F0F3BD;
+	background-color: #ECF0F1;
 	font-size: 2.2em;
 }
 .nav a {
-	color: #02C39A;
+	color: #34495E;
 }
 .boxText img {
 	margin:15px 0;
@@ -52,7 +54,7 @@ html,body {
 	right: 35px;
 	width: auto;
 	height: auto;
-	color: #F0F3BD;
+	color: #fff;
 }
 .boxText h1 {
 	font-size: 50px;
@@ -64,6 +66,10 @@ html,body {
 }
 .header {
 	padding-top: 66px;
+}
+.lastHeader {
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 .header h3 {
 	font-size: 40px;
@@ -78,7 +84,7 @@ article {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 150px;
-	font-size: 25px;
+	font-size: 28px;
 }
 .boxArticle {
 	margin: 0 auto;
@@ -87,8 +93,8 @@ article {
 .btn {
 	width:80% !important;
 	margin: 60px auto !important;
-	background-color: #f7f379 !important;
-	color: #002c47 !important;
+	background-color: #EB6B52 !important;
+	color: #fff !important;
 }
 /* Bounce To Bottom */
 .btn {
@@ -114,7 +120,7 @@ article {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #01a4ba;
+  background: #2ECC71;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -146,6 +152,8 @@ article {
 	margin:0 auto;
 }
 .copyright {
+  color:#fff;
+  opacity: 0.5;
 	text-align: center;
 	font-size: 13px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -181,6 +189,12 @@ article {
 	article {
 		font-size: 6vw;
 	}
+  .header h3 {
+    font-size: 8vw !important;
+  }
+  .fa-certificate {
+    font-size: 8.5vw !important;
+  }
 }
 @media (max-width: 547px){ 
 	.thumbnail {
@@ -232,6 +246,10 @@ article {
   width:255px;
   cursor:pointer;
   margin-bottom:0px;
+  color: #34495E;
+}
+input#submit:hover {
+  color: #fff !important;
 }
 
 #formularz p.copy {
@@ -249,6 +267,7 @@ article {
 /*watch this live*/
 .watchLive {
   height: 500px;
+  color:#000;
   margin-top: 20px;
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -258,6 +277,14 @@ article {
   padding-top: 8px;
   font-family: 'Cutive Mono' !important;
   font-size: 20px;
+}
+pre {
+  padding: 0;
+  margin: 0;
+  border: none !important;
+  background-color: #fff !important;
+  font-family: 'Cutive Mono' !important;
+  font-size: 20px !important;
 }
 .overflowText {
   overflow-y:scroll;
