@@ -43,6 +43,9 @@ html,body {
 .nav a {
 	color: #34495E;
 }
+a:hover {
+  text-decoration: none !important;
+}
 .boxText img {
 	margin:15px 0;
 }
@@ -277,6 +280,10 @@ input#submit:hover {
   padding-top: 8px;
   font-family: 'Cutive Mono' !important;
   font-size: 20px;
+}
+#liveViewMessage {
+  margin:0;
+  margin-bottom: -15px;
 }
 pre {
   padding: 0;
