@@ -1,0 +1,116 @@
+/* line 9, ../sass/style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #34495E;
+  color: #fff;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+}
+/* line 18, ../sass/style.scss */
+html .kontener, body .kontener {
+  height: 100%;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+  letter-spacing: -1px !important;
+}
+/* line 26, ../sass/style.scss */
+html .Element, body .Element {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 36, ../sass/style.scss */
+html .first, body .first {
+  color: #EB6B52;
+}
+/* line 36, ../sass/style.scss */
+html .second, body .second {
+  color: #607880;
+}
+/* line 36, ../sass/style.scss */
+html .third, body .third {
+  color: #2ECC71;
+}
+/* line 36, ../sass/style.scss */
+html .fourth, body .fourth {
+  color: #34495E;
+}
+/* line 36, ../sass/style.scss */
+html .nav, body .nav {
+  color: #ECF0F1;
+}
+/* line 47, ../sass/style.scss */
+html .nav, body .nav {
+  font-size: 2.2em;
+}
+/* line 49, ../sass/style.scss */
+html .nav a, body .nav a {
+  color: #34495E;
+}
+/* line 51, ../sass/style.scss */
+html .nav a :hover, body .nav a :hover {
+  text-decoration: none !important;
+}
+/* line 56, ../sass/style.scss */
+html .boxText, body .boxText {
+  position: absolute;
+  top: 30%;
+  bottom: 35px;
+  left: 35px;
+  right: 35px;
+  width: auto;
+  height: auto;
+  color: #fff;
+}
+/* line 65, ../sass/style.scss */
+html .boxText h1, body .boxText h1 {
+  font-size: 50px;
+  font-size: 3.5vw;
+}
+/* line 69, ../sass/style.scss */
+html .boxText h3, body .boxText h3 {
+  font-size: 40px;
+  font-size: 1.75vw;
+}
+/* line 74, ../sass/style.scss */
+html .header, body .header {
+  padding-top: 66px;
+}
+/* line 77, ../sass/style.scss */
+html .lastHeader, body .lastHeader {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+/* line 81, ../sass/style.scss */
+html .fa-certificate, body .fa-certificate {
+  font-size: 25px !important;
+  height: 33px;
+  vertical-align: middle;
+  color: #F0F3BD;
+}
+/* line 88, ../sass/style.scss */
+html .boxArticle, body .boxArticle {
+  margin: 0 auto;
+  max-width: 600px;
+}
+/* line 91, ../sass/style.scss */
+html .boxArticle article, body .boxArticle article {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  font-size: 28px;
+}
+/* line 98, ../sass/style.scss */
+html .btn, body .btn {
+  width: 80% !important;
+  margin: 60px auto !important;
+  background-color: #EB6B52 !important;
+  color: #fff !important;
+}
