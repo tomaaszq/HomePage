@@ -1,14 +1,14 @@
-/* line 9, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 html, body {
   height: 100%;
   width: 100%;
   margin: 0 !important;
   padding: 0 !important;
   background-color: #34495E;
-  color: #fff;
+  color: #fff !important;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
 }
-/* line 18, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 html .kontener, body .kontener {
   height: 100%;
   width: 100% !important;
@@ -16,9 +16,11 @@ html .kontener, body .kontener {
   padding: 0 !important;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
   letter-spacing: -1px !important;
+  /* MEDIA QUERIES */
+  /*formularz*/
 }
-/* line 26, ../sass/style.scss */
-html .Element, body .Element {
+/* line 28, ../sass/style.scss */
+html .kontener .Element, body .kontener .Element {
   width: 100%;
   height: 100%;
   min-height: 100%;
@@ -26,40 +28,40 @@ html .Element, body .Element {
   margin: 0 !important;
   padding: 0 !important;
 }
-/* line 36, ../sass/style.scss */
-html .first, body .first {
-  color: #EB6B52;
+/* line 38, ../sass/style.scss */
+html .kontener .first, body .kontener .first {
+  background-color: #EB6B52;
 }
-/* line 36, ../sass/style.scss */
-html .second, body .second {
-  color: #607880;
+/* line 38, ../sass/style.scss */
+html .kontener .second, body .kontener .second {
+  background-color: #607880;
 }
-/* line 36, ../sass/style.scss */
-html .third, body .third {
-  color: #2ECC71;
+/* line 38, ../sass/style.scss */
+html .kontener .third, body .kontener .third {
+  background-color: #2ECC71;
 }
-/* line 36, ../sass/style.scss */
-html .fourth, body .fourth {
-  color: #34495E;
+/* line 38, ../sass/style.scss */
+html .kontener .fourth, body .kontener .fourth {
+  background-color: #34495E;
 }
-/* line 36, ../sass/style.scss */
-html .nav, body .nav {
-  color: #ECF0F1;
-}
-/* line 47, ../sass/style.scss */
-html .nav, body .nav {
-  font-size: 2.2em;
+/* line 38, ../sass/style.scss */
+html .kontener .nav, body .kontener .nav {
+  background-color: #ECF0F1;
 }
 /* line 49, ../sass/style.scss */
-html .nav a, body .nav a {
-  color: #34495E;
+html .kontener .nav, body .kontener .nav {
+  font-size: 2.2em;
 }
 /* line 51, ../sass/style.scss */
-html .nav a :hover, body .nav a :hover {
+html .kontener .nav a, body .kontener .nav a {
+  color: #34495E;
+}
+/* line 53, ../sass/style.scss */
+html .kontener .nav a :hover, body .kontener .nav a :hover {
   text-decoration: none !important;
 }
-/* line 56, ../sass/style.scss */
-html .boxText, body .boxText {
+/* line 58, ../sass/style.scss */
+html .kontener .boxText, body .kontener .boxText {
   position: absolute;
   top: 30%;
   bottom: 35px;
@@ -69,48 +71,326 @@ html .boxText, body .boxText {
   height: auto;
   color: #fff;
 }
-/* line 65, ../sass/style.scss */
-html .boxText h1, body .boxText h1 {
+/* line 67, ../sass/style.scss */
+html .kontener .boxText h1, body .kontener .boxText h1 {
   font-size: 50px;
   font-size: 3.5vw;
 }
-/* line 69, ../sass/style.scss */
-html .boxText h3, body .boxText h3 {
+/* line 71, ../sass/style.scss */
+html .kontener .boxText h3, body .kontener .boxText h3 {
   font-size: 40px;
   font-size: 1.75vw;
 }
-/* line 74, ../sass/style.scss */
-html .header, body .header {
+/* line 76, ../sass/style.scss */
+html .kontener .header, body .kontener .header {
   padding-top: 66px;
 }
-/* line 77, ../sass/style.scss */
-html .lastHeader, body .lastHeader {
+/* line 78, ../sass/style.scss */
+html .kontener .header h3, body .kontener .header h3 {
+  font-size: 40px;
+}
+/* line 82, ../sass/style.scss */
+html .kontener .lastHeader, body .kontener .lastHeader {
   padding-top: 10px;
   padding-bottom: 5px;
 }
-/* line 81, ../sass/style.scss */
-html .fa-certificate, body .fa-certificate {
+/* line 86, ../sass/style.scss */
+html .kontener .fa-certificate, body .kontener .fa-certificate {
   font-size: 25px !important;
   height: 33px;
   vertical-align: middle;
   color: #F0F3BD;
 }
-/* line 88, ../sass/style.scss */
-html .boxArticle, body .boxArticle {
+/* line 93, ../sass/style.scss */
+html .kontener .boxArticle, body .kontener .boxArticle {
   margin: 0 auto;
   max-width: 600px;
 }
-/* line 91, ../sass/style.scss */
-html .boxArticle article, body .boxArticle article {
+/* line 96, ../sass/style.scss */
+html .kontener .boxArticle article, body .kontener .boxArticle article {
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
-  font-size: 28px;
+  font-size: 28px !important;
 }
-/* line 98, ../sass/style.scss */
-html .btn, body .btn {
+/* line 103, ../sass/style.scss */
+html .kontener .btn, body .kontener .btn {
   width: 80% !important;
   margin: 60px auto !important;
   background-color: #EB6B52 !important;
   color: #fff !important;
+}
+/* line 108, ../sass/style.scss */
+html .kontener .btn :before, body .kontener .btn :before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2ECC71;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/* line 128, ../sass/style.scss */
+html .kontener .btn :hover, body .kontener .btn :hover {
+  color: #fff;
+}
+/* line 130, ../sass/style.scss */
+html .kontener .btn :hover :before, body .kontener .btn :hover :before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+/* line 137, ../sass/style.scss */
+html .kontener .btn :focus, body .kontener .btn :focus {
+  color: #fff;
+}
+/* line 139, ../sass/style.scss */
+html .kontener .btn :focus :before, body .kontener .btn :focus :before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+/* line 146, ../sass/style.scss */
+html .kontener .btn :active, body .kontener .btn :active {
+  color: #fff;
+}
+/* line 148, ../sass/style.scss */
+html .kontener .btn :active :before, body .kontener .btn :active :before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+/* line 157, ../sass/style.scss */
+html .kontener .portfolioGallery, body .kontener .portfolioGallery {
+  min-height: 750px;
+  margin: 100px 50px 0 50px;
+}
+/* line 161, ../sass/style.scss */
+html .kontener .thumbnail, body .kontener .thumbnail {
+  background-color: transparent !important;
+  border: none !important;
+  width: 400px !important;
+  margin: 0 auto;
+}
+/* line 167, ../sass/style.scss */
+html .kontener .copyright, body .kontener .copyright {
+  color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0px;
+  height: 50px !important;
+  bottom: 0;
+}
+/* line 177, ../sass/style.scss */
+html .kontener .htmlMailing, html .kontener .bodyMailing, body .kontener .htmlMailing, body .kontener .bodyMailing {
+  background-color: #05668D !important;
+}
+/* line 180, ../sass/style.scss */
+html .kontener .wrapMailing, body .kontener .wrapMailing {
+  width: 800px;
+  margin: 100px auto;
+  text-align: center;
+}
+/* line 185, ../sass/style.scss */
+html .kontener .mailingImage, body .kontener .mailingImage {
+  margin-bottom: 50px;
+}
+@media (max-width: 760px) {
+  /* line 192, ../sass/style.scss */
+  html .kontener .boxText h1, body .kontener .boxText h1 {
+    font-size: 30px;
+  }
+  /* line 197, ../sass/style.scss */
+  html .kontener .boxText h3, body .kontener .boxText h3 {
+    font-size: 15px;
+  }
+  /* line 201, ../sass/style.scss */
+  html .kontener article, body .kontener article {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 400px) {
+  /* line 206, ../sass/style.scss */
+  html .kontener article, body .kontener article {
+    font-size: 6vw;
+  }
+  /* line 210, ../sass/style.scss */
+  html .kontener .header h3, body .kontener .header h3 {
+    font-size: 8vw !important;
+  }
+  /* line 214, ../sass/style.scss */
+  html .kontener .fa-certificate, body .kontener .fa-certificate {
+    font-size: 8.5vw !important;
+  }
+}
+@media (max-width: 547px) {
+  /* line 219, ../sass/style.scss */
+  html .kontener .thumbnail, body .kontener .thumbnail {
+    width: 61vw !important;
+  }
+  /* line 222, ../sass/style.scss */
+  html .kontener .portfolioGallery, body .kontener .portfolioGallery {
+    height: 315vw !important;
+  }
+  /* line 225, ../sass/style.scss */
+  html .kontener #formularz textarea,
+  html .kontener #formularz input, body .kontener #formularz textarea,
+  body .kontener #formularz input {
+    width: 70vw !important;
+  }
+}
+@media (max-width: 1201px) {
+  /* line 231, ../sass/style.scss */
+  html .kontener .portfolioGallery, body .kontener .portfolioGallery {
+    height: 1000px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 236, ../sass/style.scss */
+  html .kontener .portfolioGallery, body .kontener .portfolioGallery {
+    height: 2000px;
+  }
+}
+/* line 241, ../sass/style.scss */
+html .kontener #formularz, body .kontener #formularz {
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+/* line 247, ../sass/style.scss */
+html .kontener #formularz textarea, body .kontener #formularz textarea {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  width: 400px;
+  height: 220px !important;
+}
+/* line 257, ../sass/style.scss */
+html .kontener #formularz input, body .kontener #formularz input {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  width: 400px;
+}
+/* line 265, ../sass/style.scss */
+html .kontener #formularz input #submit, body .kontener #formularz input #submit {
+  width: 255px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  color: #34495E;
+}
+/* line 270, ../sass/style.scss */
+html .kontener #formularz input #submit :hover, body .kontener #formularz input #submit :hover {
+  color: #fff !important;
+}
+/* line 276, ../sass/style.scss */
+html .kontener #formularz p .copy, body .kontener #formularz p .copy {
+  color: #555555;
+  margin-bottom: 0px;
+  font-size: 12px;
+  text-align: center;
+}
+/* line 281, ../sass/style.scss */
+html .kontener #formularz p .copy a, body .kontener #formularz p .copy a {
+  color: #555555;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 289, ../sass/style.scss */
+html .kontener .watchLive, body .kontener .watchLive {
+  height: 500px;
+  color: #000;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 8px;
+  font-family: 'Cutive Mono' !important;
+  font-size: 20px;
+}
+/* line 301, ../sass/style.scss */
+html .kontener .watchLive #liveViewMessage, body .kontener .watchLive #liveViewMessage {
+  margin: 0;
+  margin-bottom: -15px;
+}
+/* line 305, ../sass/style.scss */
+html .kontener .watchLive pre, body .kontener .watchLive pre {
+  padding: 0;
+  margin: 0;
+  border: none !important;
+  background-color: #fff !important;
+  font-family: 'Cutive Mono' !important;
+  font-size: 20px !important;
+}
+/* line 313, ../sass/style.scss */
+html .kontener .watchLive .overflowText, body .kontener .watchLive .overflowText {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 490px;
+}
+/* line 318, ../sass/style.scss */
+html .kontener .watchLive :before, body .kontener .watchLive :before {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+/* line 330, ../sass/style.scss */
+html .kontener .watchLive :after, body .kontener .watchLive :after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+/* line 342, ../sass/style.scss */
+html .kontener .watchLive #date, body .kontener .watchLive #date {
+  text-align: right;
+}
+/* line 345, ../sass/style.scss */
+html .kontener .watchLive .signature, body .kontener .watchLive .signature {
+  text-align: right;
+  padding-right: 15px;
+}
+/* line 349, ../sass/style.scss */
+html .kontener .watchLive #signatureName, body .kontener .watchLive #signatureName {
+  font-family: 'Herr Von Muellerhoff', cursive !important;
+  font-size: 45px !important;
 }
