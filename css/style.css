@@ -190,7 +190,7 @@ article {
 	}
 @media (max-width: 400px){ 
 	article {
-		font-size: 6vw;
+		font-size: 5.5vw;
 	}
   .header h3 {
     font-size: 8vw !important;
@@ -198,6 +198,7 @@ article {
   .fa-certificate {
     font-size: 8.5vw !important;
   }
+
 }
 @media (max-width: 547px){ 
 	.thumbnail {
@@ -210,6 +211,9 @@ article {
   #formularz input {
     width: 70vw !important;
   }
+  .second .header {
+    padding-top: 20px !important;
+  }
 }
 @media (max-width: 1201px){ 
   .portfolioGallery {
@@ -219,6 +223,20 @@ article {
 @media (max-width: 992px){ 
   .portfolioGallery {
     height: 2000px;
+  }
+}
+@media (max-height: 700px){
+  .boxText img {
+    width: 25vh !important;
+  }
+  .second .boxArticle {
+    margin-top: -140px !important;
+  }
+  .second button {
+    margin-top: 10px !important;
+  }
+  .header h3 {
+    font-size: 35px !important;
   }
 }
 /* formularz */
